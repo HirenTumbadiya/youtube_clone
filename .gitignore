@@ -1,0 +1,11 @@
+# Ignore compiled files
+*.class
+*.jar
+*.war
+
+# Ignore logs
+/logs/
+
+# Ignore IDE files
+.idea/
+.vscode/
