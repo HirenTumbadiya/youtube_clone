@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Card = () => {
+const Page = () => {
   return (
     <div>
-      
+      Hekkoi
     </div>
   )
 }
 
-export default Card
+export default Page

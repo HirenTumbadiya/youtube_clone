@@ -1,9 +1,5 @@
-import Image from "next/image";
+import { redirect } from "next/navigation";
 
-export default function Home() {
-  return (
-    <div className="h-full w-full flex justify-center items-center bg-black">
-      Hello Youtube Clone
-    </div>
-  );
+export default function Page() {
+  redirect("/home");
 }

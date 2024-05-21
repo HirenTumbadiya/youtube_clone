@@ -1,5 +1,3 @@
-// components/Sidebar.tsx
-
 import Link from "next/link";
 import React from "react";
 import { BiHome } from "react-icons/bi";
@@ -9,7 +7,7 @@ const Sidebar: React.FC = () => {
   return (
     <div
       style={{ backgroundColor: "#121212" }}
-      className="text-white h-screen w-64 fixed left-0 top-14 pt-5"
+      className="text-white h-screen w-64 fixed top-16 pt-5 left-0"
     >
       <ul className="space-y-2 mx-3">
         <li>
